@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The labor and birth sounds (Biotech) are unsettling and irritating to listen to,
+  especially the late-labor cries that repeat every few seconds.
+  This patch mutes them by setting their volume to 0.
+-->
+<Patch>
+  <!-- Drop existing volume settings so the added ones below are the only values -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/SoundDef[defName="LaborEarly" or defName="LaborLate"]/subSounds/li/volumeRange</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/SoundDef[defName="LaborEarly" or defName="LaborLate" or defName="Birth"]/subSounds/li</xpath>
+    <value>
+      <volumeRange>0</volumeRange>
+    </value>
+  </Operation>
+</Patch>
