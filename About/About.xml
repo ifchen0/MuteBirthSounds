@@ -3,6 +3,7 @@
   <name>Mute Birth Sounds</name>
   <author>ifchen0</author>
   <packageId>ifchen0.mutebirthsounds</packageId>
+  <url>https://github.com/ifchen0/MuteBirthSounds</url>
   <supportedVersions><li>1.6</li></supportedVersions>
   <description>The labor and birth sounds can be unsettling and irritating, so this mod mutes them.
 
