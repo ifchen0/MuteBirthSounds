@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Mute Birth Sounds</name>
+  <name>[DEPRECATED] Mute Birth Sounds</name>
   <author>ifchen0</author>
   <packageId>ifchen0.mutebirthsounds</packageId>
   <url>https://github.com/ifchen0/MuteBirthSounds</url>
   <supportedVersions><li>1.6</li></supportedVersions>
-  <description>The labor and birth sounds can be unsettling and irritating, so this mod mutes them.
+  <description>Deprecated: this mod is now part of Vanilla Tune-Up: Fixes &amp; Tweaks and will not be updated further. Please switch to that mod.
+
+The labor and birth sounds can be unsettling and irritating, so this mod mutes them.
 
 Mutes the labor (early/late) and birth sounds played while a pawn is giving birth (Biotech). Other baby sounds are unchanged. XML patch only, safe to add or remove at any time.</description>
   <modDependencies>
